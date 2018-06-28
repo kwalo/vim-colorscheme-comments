@@ -22,13 +22,15 @@ hi ModeMsg          guifg=gray        guibg=black       gui=bold      ctermfg=NO
 hi Visual           guifg=black       guibg=grey        gui=undercurl ctermfg=none        ctermbg=none        cterm=inverse
 hi StatusLine       guifg=black       guibg=grey        gui=undercurl ctermfg=none        ctermbg=none        cterm=inverse
 hi StatusLineNC     guifg=black       guibg=grey        gui=undercurl ctermfg=none        ctermbg=none        cterm=inverse
+hi LineNr           guifg=black       guibg=grey        gui=NONE      ctermfg=darkgrey    ctermbg=NONE        cterm=NONE
+hi CursorLineNr     guifg=black       guibg=grey        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
 
 if version >= 700 " Vim 7.x specific colors
   hi CursorLine     guifg=gray        guibg=black       gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
   hi CursorColumn   guifg=gray        guibg=black       gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
-  hi MatchParen     guifg=gray        guibg=black       gui=bold      ctermfg=white       ctermbg=NONE        cterm=bold
-  hi Pmenu          guifg=gray        guibg=black       gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
-  hi PmenuSel       guifg=gray        guibg=black       gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+  hi MatchParen     guifg=gray        guibg=black       gui=bold      ctermfg=cyan        ctermbg=NONE        cterm=bold
+  hi Pmenu          guifg=black       guibg=grey        gui=NONE      ctermfg=darkgrey    ctermbg=white       cterm=inverse
+  hi PmenuSel       guifg=gray        guibg=black       gui=NONE      ctermfg=yellow      ctermbg=NONE        cterm=NONE
   hi Search         guifg=gray        guibg=black       gui=NONE      ctermfg=black       ctermbg=yellow      cterm=NONE
 endif
 
@@ -37,7 +39,6 @@ hi Normal           NONE
 hi NonText          NONE
 
 hi Cursor           NONE
-hi LineNr           NONE
 
 hi VertSplit        NONE
 
