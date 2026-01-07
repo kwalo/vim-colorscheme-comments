@@ -15,7 +15,9 @@ hi Error            guifg=gray        guibg=black       gui=undercurl ctermfg=wh
 hi ErrorMsg         guifg=white       guibg=#FF6C60     gui=bold      ctermfg=white       ctermbg=red         cterm=NONE
 hi WarningMsg       guifg=white       guibg=#FF6C60     gui=bold      ctermfg=red         ctermbg=NONE        cterm=bold
 hi LongLineWarning  guifg=gray        guibg=#371F1C     gui=underline ctermfg=NONE        ctermbg=NONE	      cterm=underline
-hi Comment          guifg=cyan        guibg=black       gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
+hi Comment          guifg=#54487A     guibg=black       gui=NONE      ctermfg=104         ctermbg=NONE        cterm=NONE
+hi String           guifg=#54487A     guibg=black       gui=NONE      ctermfg=110         ctermbg=NONE        cterm=NONE
+hi SpecialChar      guifg=#54487A     guibg=black       gui=NONE      ctermfg=110         ctermbg=NONE        cterm=NONE
 hi Todo             guifg=black       guibg=yellow      gui=NONE      ctermfg=black       ctermbg=yellow      cterm=NONE
 " Message displayed in lower left, such as --INSERT--
 hi ModeMsg          guifg=gray        guibg=black       gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=bold
@@ -51,7 +53,6 @@ hi WildMenu         NONE
 hi PmenuSbar        NONE
 hi Ignore           NONE
 
-hi String           NONE
 hi Number           NONE
 
 hi Keyword          NONE
