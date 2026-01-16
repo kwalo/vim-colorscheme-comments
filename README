@@ -1,1 +1,2 @@
-Minimal colorscheme for vim. Highlights just comments and errors.
+Minimal colorscheme for vim. Highlights just comments and strings.
+Conditionals and errors are printed bold.

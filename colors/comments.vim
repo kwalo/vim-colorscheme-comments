@@ -19,11 +19,16 @@ hi Comment          guifg=#54487A     guibg=black       gui=NONE      ctermfg=10
 hi String           guifg=#54487A     guibg=black       gui=NONE      ctermfg=110         ctermbg=NONE        cterm=NONE
 hi SpecialChar      guifg=#54487A     guibg=black       gui=NONE      ctermfg=110         ctermbg=NONE        cterm=NONE
 hi Todo             guifg=black       guibg=yellow      gui=NONE      ctermfg=black       ctermbg=yellow      cterm=NONE
+hi Type             guifg=white       guibg=black       gui=NONE      ctermfg=243         ctermbg=NONE        cterm=NONE
+hi Constant         guifg=white       guibg=black       gui=NONE      ctermfg=243         ctermbg=NONE        cterm=NONE
+hi Statement        guifg=white       guibg=black       gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
+hi Keyword          guifg=white       guibg=black       gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=bold
 " Message displayed in lower left, such as --INSERT--
 hi ModeMsg          guifg=gray        guibg=black       gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=bold
 hi Visual           guifg=black       guibg=grey        gui=undercurl ctermfg=none        ctermbg=none        cterm=inverse
-hi StatusLine       guifg=black       guibg=grey        gui=undercurl ctermfg=none        ctermbg=none        cterm=inverse
-hi StatusLineNC     guifg=black       guibg=grey        gui=undercurl ctermfg=none        ctermbg=none        cterm=inverse
+hi StatusLine       guifg=black       guibg=grey        gui=undercurl ctermfg=244         ctermbg=none        cterm=inverse
+hi StatusLineNC     guifg=black       guibg=grey        gui=undercurl ctermfg=244         ctermbg=none        cterm=inverse
+hi VertSplit        guifg=grey        guibg=grey        gui=NONE      ctermfg=244         ctermbg=244         cterm=NONE
 hi LineNr           guifg=black       guibg=grey        gui=NONE      ctermfg=darkgrey    ctermbg=NONE        cterm=NONE
 hi CursorLineNr     guifg=black       guibg=grey        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
 
@@ -42,8 +47,6 @@ hi NonText          NONE
 
 hi Cursor           NONE
 
-hi VertSplit        NONE
-
 hi Folded           NONE
 hi Title            NONE
 
@@ -55,22 +58,18 @@ hi Ignore           NONE
 
 hi Number           NONE
 
-hi Keyword          NONE
 hi PreProc          NONE
-hi Conditional      NONE
 
-hi Constant         NONE
 
 hi Identifier       NONE
 hi Function         NONE
-hi Type             NONE
-hi Statement        NONE
 
 hi Special          NONE
 hi Delimiter        NONE
 hi Operator         NONE
 
 hi link Character       Constant
+hi link Conditional     Statement
 hi link Boolean         Constant
 hi link Float           Number
 hi link Repeat          Statement
