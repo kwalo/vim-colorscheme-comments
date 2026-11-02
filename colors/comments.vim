@@ -15,8 +15,8 @@ hi Error            guifg=gray        guibg=black       gui=undercurl ctermfg=wh
 hi ErrorMsg         guifg=white       guibg=#FF6C60     gui=bold      ctermfg=white       ctermbg=red         cterm=NONE
 hi WarningMsg       guifg=white       guibg=#FF6C60     gui=bold      ctermfg=red         ctermbg=NONE        cterm=bold
 hi LongLineWarning  guifg=gray        guibg=#371F1C     gui=underline ctermfg=NONE        ctermbg=NONE	      cterm=underline
-hi Comment          guifg=#54487A     guibg=black       gui=NONE      ctermfg=104         ctermbg=NONE        cterm=NONE
-hi String           guifg=#54487A     guibg=black       gui=NONE      ctermfg=110         ctermbg=NONE        cterm=NONE
+hi Comment          guifg=#54487A     guibg=black       gui=NONE      ctermfg=cyan        ctermbg=NONE        cterm=NONE
+hi String           guifg=#54487A     guibg=black       gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
 hi SpecialChar      guifg=#54487A     guibg=black       gui=NONE      ctermfg=110         ctermbg=NONE        cterm=NONE
 hi Todo             guifg=black       guibg=yellow      gui=NONE      ctermfg=black       ctermbg=yellow      cterm=NONE
 hi Type             guifg=white       guibg=black       gui=NONE      ctermfg=243         ctermbg=NONE        cterm=NONE
